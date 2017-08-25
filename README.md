@@ -17,3 +17,19 @@ I think it is self explanatory why things like that must be first tested in a si
 Here's where python comes in. There is a way to eliminate the human factor from the procedural scenario by having python do it and at the same time not having to document anything because the python code itself is the documentation. Moreover, testing a whole scenario which may include millions of steps in a simulation environment is actually typing one command and pressing 'enter'. Seriously, no kidding. That's it:
 
         wget www.webpage-where-you-have-the-file-stored.com/magical-python-file.zip && sudo python magical-python-file.zip
+
+Which means that if the simulation environments are tested at hosting company (like DigitaOcean, Azure or Amazon), which they should, having a freshly installed operating system is a matter of seconds. Copy pasting the command is also a matter of seconds. And since there is no human implementation and python does it all, the procedure that python has to accomplish is a matter of seconds (or hardly ever minutes) too. Unless you're a huge company having servers/clusters with tons of data leading to the procedure taking hours, which you're not because you wouldn't be reading this article. Subsequently testing a feature in simulation is a matter of seconds or minutes in some cases. And it doesn't matter if that procedure is setuping something new or altering something that already exists. The file remains the same! Lets see how and why.
+
+Imagine that among the many steps of a procedure is installing VLC Media Plyer on an ubuntu server. If a human was to do it he would have to open the terminal and type:
+
+        sudo apt-get install vlc
+        
+Seems pretty easy as a standalone command but what if it was way bigger and among million other commands and had to be executed before a specific file transfer and after a specific security update? Now if we were to do that with a python script the part where the python script executes that command would look like this:
+                              
+                                // security update
+                                
+                                vlc_installation = "sudo apt-get install vlc"
+                                
+                                os.system(vlc_installation)
+                                
+                                // file transfer

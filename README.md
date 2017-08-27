@@ -20,7 +20,7 @@ Here's where python comes in. There is a way to eliminate the human factor from 
 
 Which means that if the simulation environments are tested at hosting company (like DigitaOcean, Azure or Amazon), which they should, having a freshly installed operating system is a matter of seconds. Copy pasting the command is also a matter of seconds. And since there is no human implementation and python does it all, the procedure that python has to accomplish is a matter of seconds (or hardly ever minutes) too. Unless you're a huge company having servers/clusters with tons of data leading to the procedure taking hours, which you're not because you wouldn't be reading this article. Subsequently testing a feature in simulation is a matter of seconds or minutes in some cases. And it doesn't matter if that procedure is setuping something new or altering something that already exists. The file remains the same! Lets see how and why.
 
-Imagine that among the many steps of a procedure is installing VLC Media Plyer on an ubuntu server. If a human was to do it he would have to open the terminal and type:
+Imagine that among the many steps of a procedure is installing VLC Media Plyer on an ubuntu server. If a human was to do it he would have to write to the terminal:
 
         sudo apt-get install vlc
         

@@ -40,4 +40,4 @@ Now 6 months after having configured the server our boss informs us that because
 
 You can also have the script execute at every startup or have specific functions triggered after specific events or on specific hours following a schedule. You can have the script do pretty much everything you want and just download it and run it with one command, testing simulation scenarios one after the other. 
 
-But you must have noticed that the way this solves things is bound to become messy after some time. Using a single file containing all those functions for maintenance, version control, security checks etc. accumulates to a really long file being really difficult to understand, maintain and adhere to, if need be. Well this is where Python comes in and saves the day!
+But you must have noticed that the way this solves things is bound to become messy after some time. Using a single file containing all those functions for maintenance, version control, security checks etc. accumulates to a really long file being really difficult to understand, maintain and adhere to, if need be. Well this is where Python shines bright!

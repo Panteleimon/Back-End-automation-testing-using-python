@@ -33,3 +33,5 @@ Seems pretty easy as a standalone command but what if it was way bigger and amon
         os.system(vlc_installation)
                                 
         // file transfer
+
+Why the same file in all situations you may be wondering. Well you can have the script check whether this is a new server or an allready configured one and if so if changes are needed based on the version, say by checking the existence of a text file somewhere. Confused? Lets take it step by step :)

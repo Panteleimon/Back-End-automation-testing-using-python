@@ -49,8 +49,7 @@ Which means that you can have a lot of little cleanly written and tidied up pyth
 
 For example, we could have a zip file containing the following:
 
-  example_v1.zip
-  |
-  |  - '__main__.py'
-  |  - 'new_server.py'
-  |  - 'existing_server.py'
+        example_v1.zip
+                |  - '__main__.py'
+                |  - 'new_server.py'
+                |  - 'existing_server.py'

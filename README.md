@@ -8,6 +8,7 @@ This guide is what I wished was out there when I was desperately searching so...
 
 <br>
 
+First things first :
 
 <p align="center"><img  src ="https://user-images.githubusercontent.com/16741917/44520895-fe569000-a6d9-11e8-8ab4-ca2f3e1d5360.jpg" /></p>
 

@@ -22,7 +22,15 @@ Those 2 scenarios may be daily routine depending on the nature of a company. Set
 
 I think it is self explanatory why things like that must be first tested in a simulation environment and then implemented on the production one. But even then, after spending time "trialing and erroring" in the simulation environment the correct procedure, although now known, still has some obscure and uncertain steps that must be tested from the beggining. If something seems to be wrong when said procedure is tested, modifications that will possible solve the problem are made and then... everything again from the beggining! And so on. On top of that, the human factor of implementation adheres to the time being wasted. And we haven't even mentioned the fact that every time a step is altered in the procedure it must be written down (version control). So others after us must know how to, what has been done and how to modify further. The whole thing seems pretty intricate and complicated, right?
 
-Here's where python comes in. There is a way to eliminate the human factor from the procedural scenario by having python do it and at the same time not having to document anything because the python code itself is the documentation. Moreover, testing a whole scenario which may include millions of steps in a simulation environment is actually typing one command and pressing 'enter'. Seriously, no kidding. That's it:
+Here's where our hero comes in.
+
+<br>
+
+<p align="center"><img  src ="https://i.imgflip.com/2667n9.jpg" /></p>
+
+<br>
+
+There is a way to eliminate the human factor from the procedural scenario by having python do it and at the same time not having to document anything because the python code itself is the documentation. Moreover, testing a whole scenario which may include millions of steps in a simulation environment is actually typing one command and pressing 'enter'. Seriously, no kidding. That's it:
 
         wget www.where_file_is_located.com/magical-python-file.zip && sudo python magical-python-file.zip
 

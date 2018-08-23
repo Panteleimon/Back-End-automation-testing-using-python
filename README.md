@@ -60,5 +60,5 @@ You can do whatever you want following this abstract implementation saving you b
 Happy python meddling !!!
 
 
-![Come to the dark side, we have cookies](https://memegenerator.net/img/instances/60614099/now-witness-the-power-of-our-fully-operational-test-automation-framework.jpg)
+        ![Come to the dark side, we have cookies](https://memegenerator.net/img/instances/60614099/now-witness-the-power-of-our-fully-operational-test-automation-framework.jpg)
 

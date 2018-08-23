@@ -4,13 +4,14 @@ I was recently in the proccess of designing and creating a BaaS server and subse
 
 This guide is what I wished was out there when I was desperately searching so... LUCKY YOU!
 
+<br>
+<br>
+
+<p align="center"><img  src ="https://user-images.githubusercontent.com/16741917/44520895-fe569000-a6d9-11e8-8ab4-ca2f3e1d5360.jpg" /></p>
+
 The bigger and the more complex a procedure is, the bigger the chances are that something will go wrong because there are more points of failure present. On the other hand when something is as easy as pressing a button or copy-pasting a simple command, what can go wrong, right? Well this is the logic behind a production scenario since, as time passes by in order to stay competent more and more needs emerge subsequently more and more changes are being made and extra features added. System adminstrators and software engineers try to find ways in order for the things they implement, to be bullet-proof and ,at the same time, simple for someone other than them to understand, maintain and modify if need be in the future as fast and as securely as possible.
 
 
-<br>
-
-
-<p align="center"><img  src ="https://user-images.githubusercontent.com/16741917/44520895-fe569000-a6d9-11e8-8ab4-ca2f3e1d5360.jpg" /></p>
 
 Lets create 2 hypothetical scenarios. One is that we have a new machine which has to be configured as a backend server by setuping programs, updates, services etc... The second scenario is already having a configured machine that has to be drastically altered to a new state (due to legacy support or incompatibility with new client software).
 

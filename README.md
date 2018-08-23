@@ -2,10 +2,12 @@
 
 I was recently in the proccess of designing and creating a BaaS server and subsequently searched a lot in order to find the easiest way to create and maintain it while keeping the procedure as simple as possible for someone else to swiftly understand and maintain. Remember that servers do not have a GUI and unless you are really familiar using the terminal you are gonna have a hard time finding what's going on. Which is bad in production scenarios because downtime or slow implementation of features/changes equals to loss of money and user dissatifaction.
 
+<br>
+
 This guide is what I wished was out there when I was desperately searching so... LUCKY YOU!
 
 <br>
-<br>
+
 
 <p align="center"><img  src ="https://user-images.githubusercontent.com/16741917/44520895-fe569000-a6d9-11e8-8ab4-ca2f3e1d5360.jpg" /></p>
 

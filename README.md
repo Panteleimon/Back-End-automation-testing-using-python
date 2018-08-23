@@ -40,4 +40,11 @@ Now 6 months after having configured the server our boss informs us that because
 
 You can also have the script execute at every startup or have specific functions triggered after specific events or on specific hours following a schedule. You can have the script do pretty much everything you want and just download it and run it with one command, testing simulation scenarios one after the other. 
 
-But you must have noticed that the way this solves things is bound to become messy after some time. Using a single file containing all those functions for maintenance, version control, security checks etc. accumulates to a really long file being really difficult to understand, maintain and adhere to, if need be. Well this is where Python shines bright!
+But you must have noticed that the way this solves things is bound to become messy after some time. Using a single file containing all those functions for maintenance, version control, security checks etc. accumulates to a really long file (spaghetti code) being really difficult to understand, maintain and adhere to, if need be. Well this is where Python shines bright!
+
+Did you notice that at the single command that we say at the beggining of this tutorial we were executing a zip file and not a python one? (Python files have a '.py' extension)
+
+That because Python enables you to package up a multi-module program into a ZIP file that can be run directly by the Python interpreter!
+Which means that you can have a lot of little cleanly written and tidied up python scripts inside a single file and just tell python to execute that very same zip file. Which means that regardless the structure and the changes among testing phases you will always run a single command!
+
+For example, we could have a zip file containing the following:

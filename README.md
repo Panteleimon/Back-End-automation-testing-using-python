@@ -48,3 +48,9 @@ That's because Python enables you to package up a multi-module program into a ZI
 Which means that you can have a lot of little cleanly written and tidied up python scripts inside a single file and just tell python to execute that very same zip file. Which means that regardless the structure and the changes among testing phases you will always run a single command!
 
 For example, we could have a zip file containing the following:
+
+  example_v1.zip
+  |
+  |  - '__main__.py'
+  |  - 'new_server.py'
+  |  - 'existing_server.py'

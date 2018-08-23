@@ -12,7 +12,7 @@ First things first :
 
 <p align="center"><img  src ="https://user-images.githubusercontent.com/16741917/44520895-fe569000-a6d9-11e8-8ab4-ca2f3e1d5360.jpg" /></p>
 
-The bigger and the more complex a procedure is, the bigger the chances are that something will go wrong because there are more points of failure present. On the other hand when something is as easy as pressing a button or copy-pasting a simple command, what can go wrong, right? Well this is the logic behind a production scenario since, as time passes by in order to stay competent more and more needs emerge subsequently more and more changes are being made and extra features added. System adminstrators and software engineers try to find ways in order for the things they implement, to be bullet-proof and ,at the same time, simple for someone other than them to understand, maintain and modify if need be in the future as fast and as securely as possible.
+The bigger and the more complex a procedure is, the bigger the chances are that something will go wrong because there are more points of failure present. On the other hand when something is as easy as pressing a button or copy-pasting a simple command, what can go wrong, right? Well this is the logic behind a production scenario since, as time passes by in order to stay competent more and more needs emerge subsequently more and more changes are being made and extra features added. System administrators and software engineers try to find ways in order for the things they implement, to be bullet-proof and ,at the same time, simple for someone other than them to understand, maintain and modify if need be in the future as fast and as securely as possible.
 
 
 
@@ -26,7 +26,7 @@ Here's where our hero comes in.
 
 <br>
 
-<p align="center"><img  src ="https://i.imgflip.com/2667n9.jpg" /></p>
+<p align="center"><img  width="100%" src ="https://i.imgflip.com/2667n9.jpg" /></p>
 
 <br>
 
@@ -58,7 +58,7 @@ Now 6 months after having configured the server our boss informs us that because
 
 You can also have the script execute at every startup or have specific functions triggered after specific events or on specific hours following a schedule. You can have the script do pretty much everything you want and just download it and run it with one command, testing simulation scenarios one after the other. 
 
-<p align="center"><img  src ="https://www.testbytes.net/wp-content/uploads/2018/06/1.jpg" /></p>
+<p align="center"><img  width="100%"  src ="https://www.testbytes.net/wp-content/uploads/2018/06/1.jpg" /></p>
 
 But you must have noticed that the way this solves things is bound to become messy after some time. Using a single file containing all those functions for maintenance, version control, security checks etc. accumulates to a really long file (spaghetti code) being really difficult to understand, maintain and adhere to, if need be. Well this is where Python shines bright!
 
@@ -76,7 +76,7 @@ For example, we could have a zip file containing the following:
 
 Now imagine that this script has been run once and part of the "new_server.py" procedure required the server to reboot. Suppose that  the'new_server.py' also made sure that the '.zip' file will run on every startup. That means that after the reboot the script will check again what the situation is and now the "existing_server.py" will run and so on. From this point onward sky is the limit. You could have another python file checking on which version the server is and if not the latest apply required changes or updates.
 
-<p align="center"><img  src ="https://memegenerator.net/img/instances/60614099/now-witness-the-power-of-our-fully-operational-test-automation-framework.jpg" /></p>
+<p align="center"><img  width="100%" src ="https://memegenerator.net/img/instances/60614099/now-witness-the-power-of-our-fully-operational-test-automation-framework.jpg" /></p>
 
 You can do whatever you want following this abstract implementation saving you both time and money.
 

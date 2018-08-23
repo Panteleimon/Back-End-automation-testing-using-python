@@ -50,6 +50,6 @@ Which means that you can have a lot of little cleanly written and tidied up pyth
 For example, we could have a zip file containing the following:
 
         example_v1.zip
-                |  - '__main__.py'
-                |  - 'new_server.py'
-                |  - 'existing_server.py'
+                |  - '__main__.py'              # Check whether this is a new setup and accordingly calls new_server or existin_server
+                |  - 'new_server.py'            # Installs programs, makes changes and applies updates required
+                |  - 'existing_server.py'       # Does daily or hourly maintenance, like installing security updates or monitoring

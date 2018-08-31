@@ -76,7 +76,7 @@ For example, we could have a zip file containing the following:
 
 Now imagine that this script has been run once and part of the "new_server.py" procedure required the server to reboot. Suppose that  the'new_server.py' also made sure that the '.zip' file will run on every startup. That means that after the reboot the script will check again what the situation is and now the "existing_server.py" will run and so on. From this point onward sky is the limit. You could have another python file checking on which version the server is and if not the latest apply required changes or updates.
 
-<p align="center"><img  width="100%" src ="https://memegenerator.net/img/instances/60614099/now-witness-the-power-of-our-fully-operational-test-automation-framework.jpg" /></p>
+<p align="center"><img  width="100%" src ="http://i.imgur.com/vp2EgL3.jpg" /></p>
 
 You can do whatever you want following this abstract implementation saving you both time and money.
 
